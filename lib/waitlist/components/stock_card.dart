@@ -14,7 +14,7 @@ class StockCard extends StatelessWidget {
             stock.name,
             style: const TextStyle(fontWeight: FontWeight.bold),
           ),
-          subtitle: const Text("NSE | EQ"),
+          subtitle: const Text("NSE | EQ", style: TextStyle(fontSize: 12)),
           trailing: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.end,
