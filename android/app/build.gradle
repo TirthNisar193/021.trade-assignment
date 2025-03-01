@@ -37,6 +37,10 @@ android {
             signingConfig = signingConfigs.debug
         }
     }
+    dependencies {
+    implementation "androidx.annotation:annotation:1.7.0" // Add this line
+    // Other dependencies
+}
 }
 
 flutter {
